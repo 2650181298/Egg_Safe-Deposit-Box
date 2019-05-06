@@ -1,0 +1,90 @@
+  {% extends 'TZ.html' %} 
+{% block content %}
+<!DOCTYPE html>
+<!-- 保险箱状态 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../public/js/fontsizeset.js"></script>
+    <link rel="stylesheet" href="../public/css/state.css">
+    <script src="../public/js/state.vue"></script>
+    <title>保险箱状态</title>
+</head>
+<body>
+        <div id="App">
+                <img src="../public/images/状态栏.png" alt class="Status_Bar">
+                <!-- 状态 -->
+                <div class="Action_Bar">
+                  <router-link to="/PhonePage_head"><img src="../public/images/Return.png" alt class="Return"></router-link>
+                  <!-- 弹出 -->
+                  <span class="Title">智能保险箱</span>
+                  <!-- <router-link to="/datails"> -->
+                  <router-link to="/datails"><span class="details">详情</span></router-link>
+                  <!--  @click="header_xq" -->
+                  <!-- </router-link> -->
+                </div>
+                <!-- 操作栏 -->
+                <div class="content_one">
+                  <img src="../public/images/state.jpg" alt class="state_one">
+                  <!-- 状态图 -->
+                <div>  <span class="Situation">
+                    &nbsp;安全情况
+                    <p class="security">安全</p>
+                  </span></div>
+                  <!-- 情况 -->
+                  <ul class="list">
+                    <li class="position">
+                      最后一次位置:
+                      <span>幻想乡</span>
+                    </li>
+                    <!-- 最后一次位置 -->
+                    <li>
+                      当前状态:
+                      <span>打开</span>
+                    </li>
+                    <!-- 当前状态 -->
+                  </ul>
+                  <!-- ul位置和状态 -->
+                </div>
+                <!-- 状态框 -->
+                <div class="footerq">
+                  <div class="footer_content">
+                    <span class="Set_Up_1">灵敏度设置</span>
+                    <span class="Set_Up_2">灵敏度介绍</span>
+                    <div class="box_btn" id="no">
+                        <button @click="setBtn(index)" class="set_btn">{{item.text}}</button>
+                        <button  @click="setBtn(index)" class="set_btn" >{{item.text}}</button>
+                        <button  @click="setBtn(index)" class="set_btn" >{{item.text}}</button>
+                        <button  @click="setBtn(index)" class="set_btn" >{{item.text}}</button>
+                    </div>
+            
+                    <span class="yiji">一级</span>
+                    <span class="erji">二级</span>
+                    <span class="sanji">三级</span>
+                    <span class="siji">四级</span>
+                  </div>
+                  <!-- 尾部内容 -->
+                </div>
+                <!-- 灵敏度设置白色框 -->
+              </div>
+              <!-- App大框 -->
+              <script>
+                  var cns = document.getElementById("no").getElementsByTagName("button");
+                
+                  for(var i = 0;i<cns.length;i++)
+                  {
+                      cns[i].addEventListener('click',function () {
+          
+                          for(var i = 0;i<cns.length;i++){
+                              cns[i].className = "";
+                          }
+                          this.className = "btn_yes";
+                      });
+                  }
+
+              </script>
+</body>
+</html>
+{% endblock %}

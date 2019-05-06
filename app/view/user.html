@@ -1,0 +1,63 @@
+{% extends 'TZ.html' %} 
+{% block content %}
+<!DOCTYPE html>
+<!-- 关联用户 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../public/js/fontsizeset.js"></script>
+    <link rel="stylesheet" href="../public/css/user.css">
+    <script src="../public/js/user.js"></script>
+    <title>关联用户</title>
+</head>
+<body>
+    <div id="App_4">
+        <div class="Pic_Div">
+          <img src="../public/images/状态栏.png" alt="" class="Status_Bar_4">
+      </div>
+          <div class="header_box4">
+          <router-link to="/Bxx_state"><img src="../public/images/Return.png" alt="" class="Return_2"></router-link>
+          <img src="../public/images/add.png" alt="" class="Add_Pic" href="/close_door">
+        <span class="bjjl_span4">关联用户</span>
+      </div>
+  <!-- header_box盒子 -->
+      <div class="Conter_4">
+        <div class="bj" v-if="list.showing && list.src" v-for="(list,index) in list">
+          <span class="Conter_Div4_span">保险箱将按顺序拨号,拖动可排序</span>
+           <img src="../public/images/Forknumber@2x.png" alt=""  onclick="deleteElement(this)" class="bj_imgcha">
+      </div>
+        <!-- 提示框+词 -->
+        <div class="Conter_div4_2">
+        <div class="pic_bgc1">
+          <img src="../public/images/Relation1@2x.png" alt=""  class="pic_bgc1_img">
+        </div>
+        <!-- 图的背景颜色 -->
+    <span class="pic_bgc1_san">13149869439</span>
+        </div>
+        <!-- 下边框 -->
+            <!-- /* 第一个拨号信息 */ -->
+        <div class="Conter_div4_3">
+          <div class="pic_bgc2">
+          <img src="../public/images/Relation1@2x.png" alt="" class="pic_bgc2_img">
+        </div>
+        <!-- 图的背景颜色 -->
+    <span class="pic_bgc2_san">13149869439</span>
+        </div>
+        <!-- 下边框 -->
+            <!-- /* 第二个拨号信息 */ -->
+        <div class="Conter_div4_4">
+        <div class="pic_bgc3">
+          <img src="../public/images/Relation1@2x.png" alt=""  class="pic_bgc3_img">
+        </div>
+        <span class="pic_bgc3_san">49869439</span>
+        <!-- 图的背景颜色 -->
+        </div>
+      </div>
+            <!-- /* 第三个拨号信息 */ -->
+      </div>
+    </body>
+    </html>
+    {% endblock %}
+    

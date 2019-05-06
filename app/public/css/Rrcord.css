@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.TZ_span_Three{
+  color:#0091ff;
+}
+#App_2{
+    width: 100%;
+    height: 10rem;
+    background: black
+  }
+  /* 大盒子 */
+  .Status_Bar_3{
+        width: 95%;
+        float: left;
+        margin-left: 0.15rem;
+    }
+    /* 状态栏 */
+  .header_box{
+    width: 100%;
+    height: 1rem;
+    float: left;
+  }
+  .Return_2{
+    width: 0.2rem;
+    height: 30%;
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+    float: left;
+}
+  /* 弹出按钮< */
+  .bjjl_span{
+     float: left;
+     font-size: 0.27rem;
+        color: white;
+        margin-left: 2.2rem;
+        margin-top: 0.28rem;
+  }
+  /* 报警记录 */
+  .Conter_Box{
+    width:100%;
+    height: 8.82rem;
+    float: left;
+    background-color: white;
+  }
+  /* conter_box内容盒子 */
+  .Conter_Div1{
+    width: 90%;
+    height: 1.16rem;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+    border-bottom:1px solid #e6e6e6;
+    float: left;
+  }
+  /* 第一条内容盒子 */
+  .Div_Pic1{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f72530;
+    float: left;
+    border-radius: 5%;
+    /* text-align: center;
+    line-height: 1.2rem; */
+  }
+  /* 装图片背景颜色的盒子 */
+  .pic_1{
+    float: left;
+    width: 0.58rem;
+    height: 0.5rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+  }
+  /* 图片 */
+  .Pic_Span1{
+    float: left;
+    font-size: 0.3rem;
+    font-family: "黑体";
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+  }
+  /* 标题 */
+  .time_one{
+    float: left;
+    margin-left: -2.05rem;
+    margin-top: 0.55rem;
+    font-size: 0.25rem;
+    color:#cdcdcd;
+  }
+  .Div_Span1{
+    float: right;
+    font-size: 0.25rem;
+    margin-right: 0.2rem;
+    margin-top:0.45rem;
+    color:#cdcdcd;
+  }
+  /* 幻想乡 */
+  .Conter_Div2{
+    width: 90%;
+    height: 1.16rem;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+    border-bottom:1px solid #e6e6e6;
+    float: left;
+  }
+    /* 第二条内容盒子 */
+  .Div_Pic2{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f7ba11 ;
+    border-radius: 5%;
+    float: left;
+    /* text-align: center;
+    line-height: 1.2rem; */
+
+  }
+    /* 装图片背景颜色的盒子 */
+  .pic_2{
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+    float: left;
+    width: 0.32rem;
+    height: 0.55rem;
+  }
+    /* 图片 */
+    .Pic_Span2{
+    float: left;
+    font-size: 0.3rem;
+    font-family: "黑体";
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+  }
+  /* 标题 */
+  .time_two{
+    float: left;
+    margin-left: -2.55rem;
+    margin-top: 0.55rem;
+    font-size: 0.25rem;
+    color:#cdcdcd;
+  }
+  .Div_Span2{
+    float: right;
+    font-size: 0.25rem;
+    margin-right: 0.2rem;
+    margin-top:0.45rem;
+    color:#cdcdcd;
+  }
+  /* 幻想乡 */
+  .Conter_Div3{
+    width: 90%;
+    height: 1.16rem;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+    border-bottom:1px solid #e6e6e6;
+    float: left;
+  }
+    /* 第三条内容盒子 */
+    .Div_Pic3{
+          float: left;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f72530;
+    border-radius: 5%;
+    /* text-align: center;
+    line-height: 1.2rem; */
+  }
+    /* 装图片背景颜色的盒子 */
+  .pic_3{
+    float: left;
+    width: 0.59rem;
+    height: 0.54rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+  }
+    /* 图片 */
+    .Pic_Span3{
+    float: left;
+    font-size: 0.3rem;
+    font-family: "黑体";
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+  }
+  /* 标题 */
+  .time_three{
+    float: left;
+    margin-left: -1.2rem;
+    margin-top: 0.55rem;
+    font-size: 0.25rem;
+    color:#cdcdcd;
+  }
+  .Div_Span3{
+    float: right;
+    font-size: 0.25rem;
+    margin-right: 0.2rem;
+    margin-top:0.45rem;
+    color:#cdcdcd;
+  }
+  /* 幻想乡 */
+  .Conter_Div4{
+    width: 90%;
+    height: 1.16rem;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+    border-bottom:1px solid #e6e6e6;
+    float: left;
+  }
+    /* 第四条内容盒子 */
+    .Div_Pic4{
+      width: 0.9rem;
+      height: 0.9rem;
+      float: left;
+    background-color: #f7ba11;
+    border-radius: 5%;
+    /* text-align: center;
+    line-height: 1.2rem; */
+  }
+    /* 装图片背景颜色的盒子 */
+  .pic_4{
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+    float: left;
+    width: 0.32rem;
+    height: 0.55rem;
+  }
+  /* 图片 */
+  .Pic_Span4{
+    float: left;
+    font-size: 0.3rem;
+    font-family: "黑体";
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+  }
+  /* 标题 */
+  .time_frou{
+    float: left;
+    margin-left: -2.55rem;
+    margin-top: 0.55rem;
+    font-size: 0.25rem;
+    color:#cdcdcd;
+  }
+  .Div_Span4{
+    float: right;
+    font-size: 0.25rem;
+    margin-right: 0.2rem;
+    margin-top:0.45rem;
+    color:#cdcdcd;
+  }
+  /* 幻想乡 */

@@ -1,0 +1,133 @@
+<div class="TZ_Div">
+  <div>
+    <a href="/state">
+    <img src= {{state_img}} alt="" onclick="img_One()" id="Img_One">
+    <!-- <img onclick="changeImage()" id="img" src="images/cbd.jpg"/q> -->
+    <a href="/state" class="TZ_span_One" id="aaaa">{{state_a}}</a>
+  </a>
+  </div>
+  <div>
+    <a href="/close_door">
+    <img src={{Open_door}} alt="" id="Img_Two" onclick="img_Two()">
+    <a href="/close_door" class="TZ_span_Two">开门记录</a>
+  </a>
+  </div>
+  <div>
+    <a href="/Rrcord">
+    <img src={{Rrcord}} alt="" id="Img_Three" onclick="img_Three()">
+    <a href="/Rrcord" class="TZ_span_Three">报警记录</a>
+  </a>
+  </div>
+  <div class="glyh_DIv">
+    <a href="/"> <img src={{user}} alt="" id="Img_Frou" onclick="img_Frou()">
+    <a href="/" class="TZ_span_Frou">关联用户</a>
+    </a>
+  </div>
+</div>
+<script>
+  var img1 = document.getElementById('Img_One');
+  var img2 = document.getElementById('Img_Two');
+  var img3 = document.getElementById('Img_Three');
+  var img4 = document.getElementById('Img_Frou');
+  function img_One() {
+    var i = 0;
+    if (img1.src.match('fase1' || i++ % 2 == 0)) {
+      img1.src = '../public/images/fase2.png';
+      document.getElementById('aaaa').style.color = 'blue';
+    } else {
+      img1.src = '../public/images/fase1.png';
+      document.getElementById('aaaa').style.color = 'black';
+
+    }
+  }
+</script>
+<style>
+  .TZ_Div {
+    width: 100%;
+    height: 0.88rem;
+    position: absolute;
+    top: 92%;
+    border-top: 1px solid #818181;
+  }
+
+  .TZ_span_One {
+    font-size: 18px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    text-decoration: none;
+    font-size: 0.2rem;
+    color: #8c8c8c;
+  }
+
+  #Img_One {
+    width: 0.45rem;
+    height: 0.45rem;
+    position: absolute;
+    top: 5%;
+    left: 11%;
+  }
+
+  /* 保险箱 */
+  .TZ_span_Two {
+    font-size: 18px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    text-decoration: none;
+    font-size: 0.2rem;
+    color: #8c8c8c;
+  }
+
+  #Img_Two {
+    width: 0.45rem;
+    height: 0.45rem;
+    position: absolute;
+    top: 5%;
+    left: 33%;
+  }
+
+  /* 开门记录 */
+  .TZ_span_Three {
+    font-size: 18px;
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    text-decoration: none;
+    font-size: 0.2rem;
+    color: #8c8c8c;
+  }
+
+  #Img_Three {
+    width: 0.45rem;
+    height: 0.45rem;
+    position: absolute;
+    top: 5%;
+    left: 56%;
+  }
+
+  /* 报警记录 */
+  .TZ_span_Frou {
+    width: 92px;
+    font-size: 18px;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    text-decoration: none;
+    font-size: 0.2rem;
+    color: #8c8c8c;
+  }
+
+  #Img_Frou {
+    width: 0.45rem;
+    height: 0.45rem;
+    position: absolute;
+    top: 5%;
+    left: 77.5%;
+  }
+
+  /* 关联用户 */
+</style>
+{% block content %}
+{% endblock  %}
+<!-- 复制 -->

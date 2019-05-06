@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/PhonePages.css">
+    <script src="/public/js/fontsizeset.js"></script>
+    <script src="/public/js/PhonePages.js"></script>
+</head>
+<body>
+    <div class="conters">
+        <div class="headers">
+            <div class="headers_logs">
+                <img class="headers_imgs" src="/public/images/8_hader.png" alt="">
+            </div>
+            <div class="headers_xia">
+                <!-- <router-link to="/TianJia"> -->
+                <a href="/myMessage"><img @click="jumpWode()" class="headers_left" src="/public/images/8_menuImg.png" alt=""></a>
+                <!-- </router-link> -->
+                <!-- <router-link to="/Wode"> -->
+                <a href="/ceshi"><img @click="jumpTianjia()" class="headers_right" src="/public/images/8_menuImgs.png" alt=""></a>
+                <!-- </router-link> -->
+                <h3 class="headers_tlit">保险箱</h3>
+            </div>
+        </div>
+        <div class="logs">
+            <span class="logLitie">牛批<strong>智能</strong>保险箱<br>别说了     我爱了</span>
+            <img class="logImg" v-bind="srcc" src="/public/images/guanggao@3x.png" alt="">
+            <div class="Dians">
+                <div @Click="dianji()" class="diana"></div>
+                <div @Click="dianji()" class="dian"></div>
+                <div @Click="dianji()" class="dian"></div>
+            </div>
+        </div>
+        <div class="footers">
+            <img class="footerImg" src="/public/images/safe@2x.png" alt="">
+            <h3 class="footerLitie">N  <strong>·</strong>  B保险箱</h3>
+            <h3 class="footerLities">最后一次的位置:幻想乡</h3>
+            <a href="/ceshi"><div @click="jump()" class="footerBtn">监听此保险箱</div></a>
+        </div>
+    </div>
+</body>
+</html>
