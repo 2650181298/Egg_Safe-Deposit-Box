@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conter{
+    width: 7.5rem;
+    height: 13.34rem;
+}
+.head{
+    height: 11.24rem;       
+}
+.head_log{
+    width: 100%;
+    padding-bottom: 0.89rem;
+}   
+.head_logs{
+    width: 7.50rem;
+    height: 11.24rem;
+}
+.footer{
+    width: 7.5rem;
+    height: 1.64rem;
+}
+.footer_title{
+    font-size: 0.46rem;
+    margin-left: 2.37rem;
+    color: #000000;
+    margin-top: 0.46rem;
+    letter-spacing: 0.22rem;
+}
+.footer_right_titles{
+    margin-left: 1.83rem;
+    letter-spacing: 0.09rem;
+    font-size: 0.25rem;
+    color: #ababab;
+    margin-top: 0.08rem;
+}
