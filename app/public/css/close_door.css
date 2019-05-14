@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: not-allowed;
+  }
+  /* 最外层盒子 */
+  #about{
+    width: 100%;
+
+    height: 10.5rem;
+  }
+.TZ_span_Two{
+  color: #0091ff;
+}
+
+  /* 内容部分 */
+  .content_two_two_two{
+    width: 100%;
+    height: 8.8rem;
+  }
+  /* 开门的四个框 */
+  .Open_door_one{
+    width: 90%;
+    height: 1.3rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .Open_door_two{
+    width: 90%;
+    height: 1.3rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .Open_door_three{
+    width: 90%;
+    height: 1.3rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .Open_door_four{
+    width: 90%;
+    height: 1.3rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  /* 开门里面的四个锁 */
+  .lock_one{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f7a41e;
+    float: left;
+    margin-top: 0.25rem;
+    border-radius:3px;
+  }
+  .lock_two{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f7a41e;
+    float: left;
+    margin-top: 0.25rem;
+    border-radius:3px;
+  }
+  .lock_three{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f7a41e;
+    float: left;
+    margin-top: 0.25rem;
+    border-radius:3px;
+  }
+  .lock_four{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f7a41e;
+    float: left;
+    margin-top: 0.25rem;
+    border-radius:3px;
+  }
+  /* 锁的图案 */
+  .lock{
+    width: 0.62rem;
+    height: 0.62rem;
+    float: left;
+    margin-left: 0.14rem;
+    margin-top: 0.14rem;
+  }
+  /*开门地点 */
+  .place{
+    font-size: 0.29rem;
+    color: #999999;
+    float: right;
+    margin-top: 0.5rem;
+  }
+  /* 开门名 */
+  .door_name{
+    float: left;
+    font-size: 0.3rem;
+    margin-top: 0.33rem;
+    margin-left: 0.19rem;
+  }
+  /* 开门时间 */
+  .door_time{
+    font-size: 0.25rem;
+    float: left;
+    color: #999999;
+    margin-top: 0.83rem;
+    margin-left: -0.6rem;
+  }
+
+
+
+
+
+
+  /* 目录 */
+  .Catalog{
+    width: 100%;
+    height: 1.28rem;
+    background-color: rgb(0, 0, 0);
+  }
+  /* 返回 */
+  .Return_4{
+    width: 0.2rem;
+    height: 0.35rem;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.66rem;
+  }
+  /* 状态栏 */
+  .state{
+    width: 95%;
+    float: left;
+    margin-left: 0.15rem;
+  }
+  /* 开门记录 */
+  .Open_door{
+    font-size: 0.27rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0.6rem;
+    left: 2.65rem;
+  }
+  .kmjl_4{
+    float: left;
+        clear: both;
+        margin-left: 0.28rem;   
+        margin-top: -0.27rem;
+         text-decoration: none;
+        color:#0090ff;
+  }
+  /* 开门记录字体 */
+   .glyh_4{
+           float: left;
+        clear: both;
+        margin-top: -0.28rem;
+        margin-left: 0.28rem;
+        text-decoration: none;
+        color:#818181;
+    }

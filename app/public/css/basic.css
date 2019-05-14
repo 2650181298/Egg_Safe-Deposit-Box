@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: not-allowed;
+}
+.conter{
+    width: 100%;
+    
+}
+.head_log{
+    width: 100%;
+    padding-bottom: 0.89rem;
+}   
+.head_logs{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+}
+.footer_title{
+    font-size: 0.46rem;
+    margin-left: 1.5rem;
+    color: #000000;
+    /* margin: auto; */
+    /* margin-top: 0.46rem; */
+    font-weight: normal;
+    letter-spacing: 0.22rem;
+}
+.footer_right_titles{
+    margin-left: 1rem;
+    letter-spacing: 0.09rem;
+    font-size: 0.25rem;
+    font-weight: normal;
+    color: #ababab;
+    margin-top: 0.08rem;
+}

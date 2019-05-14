@@ -1,0 +1,345 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  cursor: not-allowed;
+}
+#App {
+  width: 100%;
+  height: 10.5rem;
+  background-color: #0090ff;
+}
+.Status_Bar {
+  width: 95%;
+  float: left;
+  margin-left: 0.15rem;
+}
+/* 状态栏 */
+.Action_Bar {
+  width: 100%;
+  height: 0.88rem;
+  float: left;
+}
+/* 操作栏 */
+.Return{
+  width: 0.2rem;
+  height: 40%;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem;
+  float: left;
+}
+/* 弹出按钮 */
+.Title {
+  float: left;
+  font-size: 0.27rem;
+  color: white;
+  margin-left: 2rem;
+  line-height: 0.93rem;
+}
+/* 标题智能保险箱 */
+.details {
+  float: right;
+  font-size: 0.28rem;
+  color: white;
+  line-height: 0.88rem;
+  margin-right: 0.29rem;
+}
+/* 详情 */
+.state_one{
+  width: 100%;
+  float: left;
+  margin-top: 0.05rem;
+  margin-bottom: 0.5rem;
+}
+/* 状态图 */
+.Situation {
+  font-size: 0.3em;
+  color: white;
+  position: absolute;
+  left: 2.5rem;
+  top: 3.06rem;
+}
+/* 情况 */
+.security {
+  clear: both;
+  font-size: 0.72rem;
+  color: white;
+  margin-top: -0.08rem;
+}
+/* 安全 */
+.Div_Situation{
+  width: 100%;
+  text-align: center;
+}
+.list {
+  float: left;
+  width: 100%;
+  height: 0.9rem;
+}
+/* ul */
+.list li {
+  float: left;
+  width: 49.47%;
+  height: 0.9rem;
+  border-left: 1px solid #32a8ff;
+  border-top: 1px solid #32a8ff;
+  border-bottom: 1px solid #32a8ff;
+  font-size: 0.27rem;
+  color: white;
+  list-style: none;
+  text-align: center;
+  line-height: 0.9rem;
+}
+/* 位置和状态 */
+.footerq {
+  width: 100%;
+  height: 2.78rem;
+  background-color: white;
+  float: left;
+}
+/* 灵敏度大框 */
+.content{
+  width: 0;
+}
+.footer_content {
+  width: 100%;
+  float: left;
+  margin-top: 0.7rem;
+  height: 1.67rem;
+  border: #0090ff;
+}
+.Set_Up_1 {
+  float: left;
+  margin-left: 0.2rem;
+  font-size: 0.25rem;
+      margin-right: 3.5rem;
+}
+.Set_Up_2 {
+  float: right;
+  margin-right: 0.2rem;
+  font-size: 0.25rem;
+  color: #0090ff;
+}
+/* 灵敏度设置 */
+.set_btn {
+  background-color: #e0e4e7;
+}
+/* 添加背景色 其他样式在下面 */
+.btn_yes{
+  width: 1.48rem;
+  height: 0.53rem;
+  background: #0090ff;
+  color: #fff;
+  }
+  /* 赋值样式 */
+  .box_btn button {
+  width: 1.3rem;
+  height: 0.53rem;
+  float: left;
+  border: none;
+  margin-left: 0.02rem;
+  margin-top: 0.07rem;
+  }
+  /* 样式 */
+.box_btn{
+  float: left;
+  margin-top: 0rem;
+  margin-left: 0.5rem
+}
+.yiji {
+  float: left;
+  clear: both;
+  font-size: 0.24rem;
+  margin-left: 0.9rem;
+}
+/* 一级 */
+
+.erji {
+  float: left;
+  font-size: 0.24rem;
+  margin-left: 0.95rem;
+}
+/* 二级 */
+
+.sanji {
+  float: left;
+  font-size: 0.24rem;
+  margin-left: 0.8rem;
+}
+/* 三级 */
+
+.siji {
+  float: left;
+  font-size: 0.24rem;
+  margin-left:0.85rem;
+}
+/* 四级 */
+/* 灵敏度级别条 */
+.footer_2 {
+  width: 100%;
+  height: 1rem;
+  background-color: white;
+  float: left;
+}
+/* 底部盒子 */
+.list_2 {
+  float: left;
+  width: 100%;
+  height: 1rem;
+  border-top: 1px solid black;
+  margin-top: 0.15rem
+}
+/* ul */
+.list_2 li {
+  list-style: none;
+  text-align: center;
+  line-height: 1rem;
+  float: left;
+  font-size: 0.25rem;
+  margin-top: 0.1rem;
+  margin-left: 0.2rem
+}
+/* 每一个li 保险箱 */
+.fase1 {
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.09rem;
+}
+.fase2 {
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.09rem;
+}
+
+/* 保险箱图片 */
+.bxx {
+  float: left;
+  clear: both;
+}
+.bxx2 {
+  float: left;
+  clear: both;
+  text-decoration: none;
+  color: #0090ff;
+  margin-top: -0.28rem;
+  margin-left: 0.4rem;
+}
+/* 保险箱字 */
+.list_2_li1 {
+  float: left;
+  width: 1.6rem;
+}
+.list_2_li2 {
+  float: left;
+  width: 1.6rem;
+  /* margin-left: 0.66rem;    */
+  text-align: center;
+  line-height: 1rem;
+}
+.list_2_li3 {
+  float: left;
+  width: 1.6rem;
+  /* margin-left: 0.66rem;     */
+  text-align: center;
+  line-height: 1rem;
+}
+.list_2_li4 {
+  float: left;
+  width: 1.6rem;
+  /* margin-left: 0.66rem;   */
+  text-align: center;
+  line-height: 1rem;
+}
+
+.Opendoor1 {
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.09rem;
+}
+.Opendoor2 {
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.09rem;
+}
+/* 开门记录图 */
+.kmjl {
+  float: left;
+  clear: both;
+}
+/* 点击路由盒子 */
+.kmjl2 {
+  float: left;
+  clear: both;
+  margin-left: 0.28rem;
+  margin-top: -0.28rem;
+  text-decoration: none;
+  color: #818181;
+}
+/* 开门记录 */
+.Callthepolice1 {
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.09rem;
+}
+.Callthepolice2 {
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.09rem;
+}
+/* 报警记录图 */
+.bjjl {
+  float: left;
+  /* clear: both; */
+}
+.bjjl2 {
+  float: left;
+  clear: both;
+  margin-top: -0.28rem;
+  margin-left: 0.28rem;
+  text-decoration: none;
+  color: #818181;
+}
+/* 报警记录字 */
+.glyh {
+  float: left;
+  clear: both;
+}
+.glyh2 {
+  float: left;
+  clear: both;
+  margin-top: -0.28rem;
+  margin-left: 0.28rem;
+  text-decoration: none;
+  color: #818181;
+}
+/* 关联用户 */
+.Relation1 {
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.09rem;
+}
+.Relation2 {
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.09rem;
+}
+/* 关联用户 */
+.TZ_span_One{
+  color: #0091ff;
+}
