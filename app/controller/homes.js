@@ -15,7 +15,7 @@ class HomeController extends Controller {
   }
   async close_door() {
     // const { ctx } = this;
-    await this.ctx.render('close_door.html',{
+    await this.ctx.render('closeDoor.html',{
       state_img:'../public/images/fase1.png',
       state_a:'保险箱',
       Open_door:"../public/images/Opendoor2.png",
